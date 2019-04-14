@@ -12,10 +12,10 @@ The aim of this workshop is to control RGB diode using the ADPS-9960 gesture sen
 
 ### How to Install Library for APDS-9960
 
-The GitHub repository: [https://github.com/adafruit/Adafruit_APDS9960](https://github.com/adafruit/Adafruit_APDS9960)
+The GitHub repository: [https://github.com/sparkfun/SparkFun_APDS-9960_Sensor_Arduino_Library](https://github.com/sparkfun/SparkFun_APDS-9960_Sensor_Arduino_Library)
 
 You can install the library via Arduino IDE:
 * Open Arduino IDE
 * Go to Arduino Library manager (Tools => Manage libraries...)
-* Search for "Adafruit APDS9960 Library" and install it
+* Search for "Sparkfun APDS9960 Library" and install it
 * Close the Library manager
