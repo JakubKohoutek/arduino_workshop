@@ -1,3 +1,5 @@
+#include <Wire.h>
+
 // Constants with RGB diode pins
 int RED_PIN = 3;
 int GRN_PIN = 5;

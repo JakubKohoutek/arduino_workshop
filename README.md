@@ -19,3 +19,14 @@ You can install the library via Arduino IDE:
 * Go to Arduino Library manager (Tools => Manage libraries...)
 * Search for "Sparkfun APDS9960 Library" and install it
 * Close the Library manager
+
+## Circuit Scheme
+
+Arduino is connected to the RGB diode and APDS sensor as follows:
+![RGB Gesture Sensor Scheme](./RGB_gesture_sensor_scheme.png)
+
+Important information:
+
+* Common anode diode is connected to the ground and to the digital pins 3 (red), 5 (green) and 6 (blue) that support PWM
+* APDS sensor is connected to arduino through I2C interface - data on analog pin A4 and clock on analog pin A5
+* ADPS sensor's interrupt pin is connected to Arduino's digital pin 2 that must be set to listen for that interrupt
